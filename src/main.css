@@ -107,6 +107,28 @@ a:hover {
 
 img{
   display: block;
-  width:100%
+  width:100%;
   object-fit: cover;
+}
+
+/* media query Medium devises  */
+@media screen and (max-width:1024px){
+  .container{
+    width: var(--container-width-md);
+  }
+
+  section {
+    margin-top: 6rem;
+  }
+}
+
+/* media query samll devises  */
+@media screen and (max-width:600px){
+  .container{
+    width: var(--container-width-sm);
+  }
+
+  section > h2 {
+    margin-bottom: 2rem;
+  }
 }
