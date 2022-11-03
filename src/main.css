@@ -38,7 +38,7 @@ body{
   background : var(--color-bg);
   color : var(--color-white);
   line-hieght: 1.7;
-  background-image: url(../src/assests/backdrop.png);
+  /* background-image: url(src/assests/backdrop.png); */
 }
 
 /* ==================General styles ================= */
